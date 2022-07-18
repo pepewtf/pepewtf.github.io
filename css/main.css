@@ -3,9 +3,21 @@
 /*	Basic Style 
 /* =================================== */
 
+
+/* Font Face */
+/* Use 嘉字體 */
+
+@font-face {
+    font-family: 'ChiayiCity'; 
+    src: url('/fonts/ChiayiCity.ttf');
+}
+
+/* Import 思源黑體 */
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ChiayiCity', 'Noto Sans TC', '微軟正黑體', 'Open Sans', sans-serif;
     line-height: 21px;
 	font-size: 13px;
     color: #6a737b;
